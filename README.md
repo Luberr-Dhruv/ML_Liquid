@@ -21,4 +21,4 @@ We go over three different models of increasing complexity here to show the grad
 
 
 
-![Gain](/Solubility/Manim Gifs/Gain.gif)
+![Gain](https://github.com/Luberr-Dhruv/ML_Liquid/blob/master/Solubility/Manim%20Gifs/Gain.gif)
