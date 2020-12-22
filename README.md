@@ -1,13 +1,24 @@
-# Machine-based learning of solubility
+# Prediction of Aqueous Solubility of Substances using Machine Learning and Deep Learning Models
 
-This repository is the archival work that me and Gabriele did for professor Zhuang Bilin over summer. We tried to develop methods to see whether 2 substances are soluble with each other. It is seperated into the following sections:
+This repository is a part of the research project conducted by Prof. Zhuang Bilin from Yale-NUS. We go over the possibility of predicting Aqueous Solubility of Substances using Machine Learning and Deep Learning Models.
 
-## Miscibility
+## Models:
 
-We compared the predictive power of molecular models in determining whether 2 liquids are soluble. There were both computational and analytical methods used. 
+We go over three different models of increasing complexity here to show the gradual increase in accuracy.
 
-## Solubility
+1. Linear Regression:
+    * This is probably the mosr basic Machine Learning model out there. It's working principle can easily be understood by beginners and that is the reason this model is popular.
+    * This model is not very accurate with large and complex datasets. It uses a single algorithm.
 
-We used machine learning methods to come up with a model that can accurately predict the solubility of a given liquid. However, code for this is still under process. 
+2. XGBoost Regressor:
+    * __XGBoost__ - Short for '__Extreme Gradient Boosting__' is a Gradient Boosting Algorithm
+    * This is very big leap from the previous model. This algorithm is widely used and is one of the best performers in many Kaggle Competitions.
+    * It includes hyperparameters to reduce overfitting and other issues.
+    * If used correctly, you can get great accuracy.
+    * Training time is also quick.
+3. Neural Networks: 
+    * 
 
-**Note: This is an archival (outdated) repository and is still under development and review. In addition, the material here is used for a publication that is under the review process. Therefore, please keep the code to yourselves!**
+
+
+![Gain](/Solubility/Manim Gifs/Gain.gif)
